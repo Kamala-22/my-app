@@ -1,0 +1,77 @@
+
+   .navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(224, 167, 224);
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: hsl(300, 3%, 6%);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar a:hover {
+    color: rgb(253, 249, 252);
+    text-decoration: underline;
+    text-decoration-color: #25251e;
+  }
+  
+  .navbar .logo {
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar .search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar input[type="text"] {
+    width: 250px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .navbar .search-box i {
+    margin-left: -30px;
+    cursor: pointer;
+    display: flex;
+    /* background-color: white; */
+    /* height: 30px; */
+
+  }
+  
+  .navbar .icons {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+  }
+  
+  .navbar .icons a {
+    padding: 0 10px;
+  }
+  
+  .navbar .icons i {
+    font-size: 18px;
+  }
+  
+  .cart-count {
+    position: relative;
+    top: -10px;
+    right: 10px;
+    background-color: rgb(241, 118, 211);
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+  }
+  
+  .navbar button{
+    background-color: rgb(224, 167, 224);
+  }

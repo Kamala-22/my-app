@@ -1,0 +1,27 @@
+.main {
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .filterbox {
+    flex-basis: 23%;
+  }
+  
+  .categorylist label {
+    display: block;
+    padding: 5px 0px;
+  }
+  
+  .categorylist {
+    margin-top: 20px;
+  }
+  
+  .product {
+    flex-basis: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  

@@ -1,0 +1,153 @@
+/* Adjusted CSS */
+footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color: #1d1b1c;
+    color: rgb(234, 26, 245);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #b473ba;
+    color: black;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul li {
+    display: block; /* Change from `ul a` to `ul li` */
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.sign-in {
+    background-color: #ffffff;
+    border: 0.2px solid rgba(0, 0, 0, 0.252);
+    margin: 10px;
+    width: 95%;
+    height: 5rem;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.sign-btn {
+    background-color: #febd68;
+    width: 17%;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.foot-panel3 {
+    background-color: hwb(300 9% 91%);
+    color: rgb(185, 39, 185);
+    border-top: 0.5px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logof {
+    height: 50px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position-y: -40px;
+    overflow: hidden;
+}
+
+.ibtn {
+    height: 40px;
+    width: 100px;
+    background-color: #e4c0e2;
+}
+
+.amz-fot {
+    background-color: #141314;
+    color: #9c1a9c;
+    padding-left: 200px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+
+.p {
+    background-color: #222f3d;
+    color: #ffffff;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.foot-panel4 {
+    background-color: #1c1a1c;
+    color: rgb(117, 53, 118);
+    height: 420px;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.foot-panel4 ul {
+    margin-top: 20px;
+}
+
+.foot-panel4 ul li {
+    display: block; /* Change from `foot-panel4 ul a` to `foot-panel4 ul li` */
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #bebfc1;
+    text-decoration: none;
+    text-align: left;
+}
+
+.foot-panel4 p {
+    font-size: 1.3rem;
+    line-height: 10px;
+    text-align: left;
+}
+
+.copyright {
+    padding-top: 25px;
+    margin-top: 20px;
+    width: 90vw;
+    display: grid;
+    place-items: center;
+}
+
+.lang {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+.lang img {
+    width: 100%;
+    margin-right: 10px;
+    padding-bottom: 5%;
+}
+
+.nav-signin i {
+    position: relative;
+    left: 100px;
+    top: -15px;
+}

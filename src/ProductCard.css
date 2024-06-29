@@ -1,0 +1,19 @@
+.productitem {
+    flex-basis: 31%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 2px #fcb9f4;
+  }
+  
+  .productitem img {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .productitem p {
+    padding: 10px;
+  }
+  
+  .productitem h3 {
+    padding: 10px;
+  }
+  

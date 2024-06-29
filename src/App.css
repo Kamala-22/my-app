@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* background-color: rgb(228, 116, 234); */
+
+}
+
+h1 {
+  text-align: center;
+  padding: 40px 0px;
+}
+.additional-image{
+  /* width: cover; */
+  
+  margin-top: 20px; /* Adjust as needed */
+  width: 100%;
+  /* max-width: 1200px; Example maximum width */
+  height: 400px;
+}
